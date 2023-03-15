@@ -1,0 +1,184 @@
+/* ...................font_family............................. */
+@font-face {
+    font-family: 'American Captain';
+    src: url(../font/American\ Captain.otf);
+    src: url(../font/American\ Captain.ttf);
+}
+
+.ff_amrica {
+    font-family: 'American Captain';
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../font/SFPRODISPLAYBLACKITALIC.OTF);
+    src: url(../font/SFPRODISPLAYBOLD.OTF);
+    src: url(../font/SFPRODISPLAYHEAVYITALIC.OTF);
+    src: url(../font/SFPRODISPLAYLIGHTITALIC.OTF);
+    src: url(../font/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../font/SFPRODISPLAYREGULAR.OTF);
+    /* src: url(../font/SFPRODISPLAYSEMIBOLDITALIC.OTF);
+    src: url(../font/SFPRODISPLAYTHINITALIC.OTF);
+    src: url(../font/SFPRODISPLAYULTRALIGHTITALIC.OTF); */
+}
+
+.ff_sf_pro {
+    font-family: 'SF Pro Display';
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../font/Helvetica-Bold.ttf);
+    src: url(../font/Helvetica-BoldOblique.ttf);
+    src: url(../font/helvetica-compressed-5871d14b6903a.otf);
+    src: url(../font/helvetica-light-587ebe5a59211.ttf);
+    src: url(../font/Helvetica-Oblique.ttf);
+    src: url(../font/helvetica-rounded-bold-5871d05ead8de.otf);
+    src: url(../font/Helvetica.ttf);
+
+}
+
+.ff_Helvetica {
+    font-family: 'Helvetica';
+}
+
+
+/* root */
+:root {
+    /* font_size */
+    --fs-246: 246px;
+    --fs-200: 200px;
+    --fs-130: 130px;
+    --fs-120: 120px;
+    --fs-110: 110x;
+    --fs-100: 100px;
+    --fs-56: 56px;
+    --fs-35: 35px;
+    --fs-32: 32px;
+    --fs-30: 30px;
+    --fs-24: 24px;
+    --fs-20: 20px;
+    --fs-17: 17px;
+    --fs-15: 15px;
+
+
+
+    /* color */
+    --color-white: #FFFFFF;
+    --color-black: #161616;
+    --color-lightblack: #373737;
+    --color-grey: #BDBDBD;
+    --color-blue: #0058DD;
+    --color-lightwhite: #F2F2F2;
+
+}
+
+/* color */
+
+.white {
+    color: var(--color-white) !important;
+}
+
+.black {
+    color: var(--color-black);
+}
+
+.lightblack {
+    color: var(--color-lightblack);
+}
+
+.grey {
+    color: var(--color-grey);
+}
+
+
+.lightwhite {
+    color: var(--color-lightwhite);
+}
+
+
+
+/* bg */
+
+.bg_blue {
+    background: var(--color-blue);
+}
+
+.bg_black {
+    background: var(--color-black);
+}
+
+/* font_size */
+.fs_246 {
+    font-size: var(--fs-246);
+}
+
+.fs_200 {
+    font-size: var(--fs-200);
+}
+
+.fs_130 {
+    font-size: var(--fs-130);
+}
+
+.fs_120 {
+    font-size: var(--fs-120);
+}
+
+.fs_110 {
+    font-size: var(--fs-110);
+}
+
+.fs_100 {
+    font-size: var(--fs-100);
+}
+
+.fs_56 {
+    font-size: var(--fs-56);
+}
+
+.fs_35 {
+    font-size: var(--fs-35);
+}
+
+.fs_32 {
+    font-size: var(--fs-32);
+}
+
+.fs_30 {
+    font-size: var(--fs-30);
+}
+
+.fs_24 {
+    font-size: var(--fs-24);
+}
+
+.fs_20 {
+    font-size: var(--fs-20);
+}
+
+.fs_17 {
+    font-size: var(--fs-17);
+}
+
+.fs_15 {
+    font-size: var(--fs-15);
+}
+
+
+/* font-weight */
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
