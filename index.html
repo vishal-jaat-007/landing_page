@@ -1,15 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ................................bottstrap_link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ..................................link_css.............................. -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- ........................................link_root............... -->
     <link rel="stylesheet" href="/assets/css/root.css">
-    <title>Document</title>
+    <!-- .........................link_fav_icon......................... -->
+    <link rel="shortcut icon" href="/assets/image/svg/Star 1.png" type="image/x-icon">
+    <title>landing_page</title>
 </head>
-<body>
 
-    
+<body>
+    <header class="bg_image">
+        <div class="container">
+            <nav>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                        <a class="fw_400 ff_amrica white fs_4xl mb-0" href="#">Prime Car</a></li>
+
+                    </div>
+                    <div>
+                        <ul class="d-flex align-items-center list-unstyled mb-0" id="show">
+                            <li><a class="fw_600 white ff_sf_pro fs_md pe-4" href="#">Home</a></li>
+                            <li><a class="fw_600 white ff_sf_pro fs_md pe-4" href="#">About</a></li>
+                            <li><a class="fw_600 white ff_sf_pro fs_md pe-4" href="#">Benefits</a></li>
+                            <li><a class="fw_600 white ff_sf_pro fs_md pe-4" href="#">Cars</a></li>
+
+                        </ul>
+                    </div>
+                    <span class="d-flex flex-column d-lg-none d-block" onclick="navshow()">
+                        <span class="nav_3_line"></span>
+                        <span class="nav_3_line"></span>
+                        <span class="nav_3_line"></span>
+                    </span>
+
+                    <ul class="list-unstyled mb-0">
+                        <li><a class="fw_600 fs_lg ff_sf_pro white nav_btn" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="d-flex flex-column align-items-end">
+                <p class="fw_400 ff_amrica fs_8xl white max_width_811_lg text-end" >More economy, same speed</p>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bottstrap_link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <!-- .......................nav_show -->
+    <script>
+        function navshow() {
+            document.getElementById("show").classList.toggle("nav_left")
+            document.body.classList.toggle("overflowhiden")
+        }
+    </script>
 </body>
+
 </html>

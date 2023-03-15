@@ -17,13 +17,14 @@
     src: url(../font/SFPRODISPLAYLIGHTITALIC.OTF);
     src: url(../font/SFPRODISPLAYMEDIUM.OTF);
     src: url(../font/SFPRODISPLAYREGULAR.OTF);
-    src: url(../font/SFPRODISPLAYSEMIBOLDITALIC.OTF);
-    src: url(../font/SFPRODISPLAYTHINITALIC.OTF);
-    src: url(../font/SFPRODISPLAYULTRALIGHTITALIC.OTF);
+    /* src: url(../font/SFPRODISPLAYSEMIBOLDITALIC.OTF); */
+    /* src: url(../font/SFPRODISPLAYTHINITALIC.OTF); */
+
 }
 
 .ff_sf_pro {
     font-family: 'SF Pro Display';
+    font-style: normal;
 }
 
 @font-face {
