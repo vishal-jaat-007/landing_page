@@ -1,1 +1,170 @@
-.nnn{}
+@font-face {
+    font-family: 'American Captain';
+    src: url(../font/American\ Captain.otf);
+    src: url(../font/American\ Captain.ttf);
+}
+
+.ff_amrica {
+    font-family: 'American Captain';
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../font/SFPRODISPLAYBLACKITALIC.OTF);
+    src: url(../font/SFPRODISPLAYBOLD.OTF);
+    src: url(../font/SFPRODISPLAYHEAVYITALIC.OTF);
+    src: url(../font/SFPRODISPLAYLIGHTITALIC.OTF);
+    src: url(../font/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../font/SFPRODISPLAYREGULAR.OTF);
+    src: url(../font/SFPRODISPLAYSEMIBOLDITALIC.OTF);
+    src: url(../font/SFPRODISPLAYTHINITALIC.OTF);
+    src: url(../font/SFPRODISPLAYULTRALIGHTITALIC.OTF);
+}
+
+.ff_sf_pro {
+    font-family: 'SF Pro Display';
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../font/Helvetica-Bold.ttf);
+    src: url(../font/Helvetica-BoldOblique.ttf);
+    src: url(../font/helvetica-compressed-5871d14b6903a.otf);
+    src: url(../font/helvetica-light-587ebe5a59211.ttf);
+    src: url(../font/Helvetica-Oblique.ttf);
+    src: url(../font/helvetica-rounded-bold-5871d05ead8de.otf);
+    src: url(../font/Helvetica.ttf);
+
+}
+
+.ff_Helvetica {
+    font-family: 'Helvetica';
+}
+
+
+/* root */
+:root {
+    /* font_size */
+    --fs-8xl: 130px;
+    --fs-7xl: 120px;
+    --fs-6xl: 110x;
+    --fs-5xl: 100px;
+    --fs-4xl: 56px;
+    --fs-3xl: 35px;
+    --fs-2xl: 32px;
+    --fs-xl: 30px;
+    --fs-lg: 24px;
+    --fs-md: 20px;
+    --fs-sm: 17px;
+    --fs-ss: 15px;
+
+
+
+    /* color */
+    --color-white: #FFFFFF;
+    --color-black: #161616;
+    --color-lightblack: #373737;
+    --color-grey: #BDBDBD;
+    --color-blue: #0058DD;
+    --color-lightwhite: #F2F2F2;
+
+}
+
+/* color */
+
+.white {
+    color: var(--color-white) !important;
+}
+
+.black {
+    color: var(--color-black);
+}
+
+.lightblack {
+    color: var(--color-lightblack);
+}
+
+.grey {
+    color: var(--color-grey);
+}
+
+
+.lightwhite {
+    color: var(--color-lightwhite);
+}
+
+
+
+/* bg */
+
+.bg_blue {
+    background: var(--color-blue);
+}
+
+
+/* font_size */
+.fs_8xl {
+    font-size: var(--fs-8xl);
+}
+
+.fs_7xl {
+    font-size: var(--fs-7xl);
+}
+
+.fs_6xl {
+    font-size: var(--fs-6xl);
+}
+
+.fs_5xl {
+    font-size: var(--fs-5xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_ss {
+    font-size: var(--fs-ss);
+}
+
+
+/* font-weight */
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
