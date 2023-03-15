@@ -1,0 +1,12 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+    list-style-type: none !important;
+}
+.line_h_28{
+    line-height: 28px;
+}

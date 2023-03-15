@@ -17,9 +17,9 @@
     src: url(../font/SFPRODISPLAYLIGHTITALIC.OTF);
     src: url(../font/SFPRODISPLAYMEDIUM.OTF);
     src: url(../font/SFPRODISPLAYREGULAR.OTF);
-    /* src: url(../font/SFPRODISPLAYSEMIBOLDITALIC.OTF); */
-    /* src: url(../font/SFPRODISPLAYTHINITALIC.OTF); */
-
+    src: url(../font/SFPRODISPLAYSEMIBOLDITALIC.OTF);
+    src: url(../font/SFPRODISPLAYTHINITALIC.OTF);
+    src: url(../font/SFPRODISPLAYULTRALIGHTITALIC.OTF);
 }
 
 .ff_sf_pro {
@@ -47,18 +47,20 @@
 /* root */
 :root {
     /* font_size */
-    --fs-8xl: 130px;
-    --fs-7xl: 120px;
-    --fs-6xl: 110x;
-    --fs-5xl: 100px;
-    --fs-4xl: 56px;
-    --fs-3xl: 35px;
-    --fs-2xl: 32px;
-    --fs-xl: 30px;
-    --fs-lg: 24px;
-    --fs-md: 20px;
-    --fs-sm: 17px;
-    --fs-ss: 15px;
+    --fs-246: 246px;
+    --fs-200: 200px;
+    --fs-130: 130px;
+    --fs-120: 120px;
+    --fs-110: 110x;
+    --fs-100: 100px;
+    --fs-56: 56px;
+    --fs-35: 35px;
+    --fs-32: 32px;
+    --fs-30: 30px;
+    --fs-24: 24px;
+    --fs-20: 20px;
+    --fs-17: 17px;
+    --fs-15: 15px;
 
 
 
@@ -103,54 +105,65 @@
     background: var(--color-blue);
 }
 
+.bg_black {
+    background: var(--color-black);
+}
 
 /* font_size */
-.fs_8xl {
-    font-size: var(--fs-8xl);
+.fs_246 {
+    font-size: var(--fs-246);
 }
 
-.fs_7xl {
-    font-size: var(--fs-7xl);
+.fs_200 {
+    font-size: var(--fs-200);
 }
 
-.fs_6xl {
-    font-size: var(--fs-6xl);
+.fs_130 {
+    font-size: var(--fs-130);
 }
 
-.fs_5xl {
-    font-size: var(--fs-5xl);
+.fs_120 {
+    font-size: var(--fs-120);
 }
 
-.fs_4xl {
-    font-size: var(--fs-4xl);
+.fs_110 {
+    font-size: var(--fs-110);
 }
 
-.fs_3xl {
-    font-size: var(--fs-3xl);
+.fs_100 {
+    font-size: var(--fs-100);
 }
 
-.fs_2xl {
-    font-size: var(--fs-2xl);
+.fs_56 {
+    font-size: var(--fs-56);
 }
 
-.fs_xl {
-    font-size: var(--fs-xl);
+.fs_35 {
+    font-size: var(--fs-35);
 }
 
-.fs_lg {
-    font-size: var(--fs-lg);
+.fs_32 {
+    font-size: var(--fs-32);
 }
 
-.fs_md {
-    font-size: var(--fs-md);
+.fs_30 {
+    font-size: var(--fs-30);
 }
 
-.fs_sm {
-    font-size: var(--fs-sm);
+.fs_24 {
+    font-size: var(--fs-24);
 }
 
-.fs_ss {
-    font-size: var(--fs-ss);
+.fs_20 {
+    font-size: var(--fs-20);
+}
+
+.fs_17 {
+    font-size: var(--fs-17);
+}
+
+.fs_15 {
+    font-size: var(--fs-15);
 }
 
 
