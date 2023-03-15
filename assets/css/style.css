@@ -10,7 +10,7 @@
 
 .bg_image {
     background-image: url(/assets/image/svg/Background.png);
-    background-size: cover;
+    background-size: 100% 100%;
     width: 100%;
     background-repeat: no-repeat;
     border-radius: 0px;
@@ -31,10 +31,21 @@
 
 }
 
+.line_height_2 {
+    line-height: 1;
+}
+
+.max_width_811_ {
+    width: 811px;
+}
+
 @media (min-width:992px) {
     .max_width_811_lg {
         width: 811px;
+    }
 
+    .max_width_311_lg {
+        max-width: 311px;
     }
 }
 
