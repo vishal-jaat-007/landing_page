@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.overflowhiden{
+    overflow: hidden;
+}
+
 .bg_image {
     background-image: url(/assets/image/svg/Background.png);
     background-size: 100% 100%;
@@ -39,6 +43,77 @@
     width: 811px;
 }
 
+.bg_black {
+    background: #1A191A;
+}
+
+.bg_green {
+    background: rgba(0, 221, 168, 0.5);
+}
+
+.bg_red {
+    background: rgba(207, 41, 41, 0.6);
+}
+
+.bg_blue {
+    background: rgba(0, 88, 221, 0.6);
+}
+
+
+.box {
+    height: 100%;
+    border-radius: 16px;
+    padding: 45px;
+
+}
+
+.play_btn {
+    height: 120px;
+    width: 120px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+    left: 46%;
+    top: 43%;
+}
+
+.img_green_box {
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.lines {
+    right: -62px;
+    bottom: 0;
+}
+
+.blue_star {
+    right: -3px;
+    bottom: -85px;
+   
+}
+.overflow{
+    overflow-y: hidden;
+}
+
+.green_star {
+    left: 12px;
+    top: 80px;
+    
+}
+
+.map {
+    height: 377px;
+    width: 1920px;
+    border-radius: 0px;
+}
+
+@media (min-width:1400px) {
+    .container_xxl {
+        max-width: 1720px;
+    }
+}
+
 @media (min-width:992px) {
     .max_width_811_lg {
         width: 811px;
@@ -46,6 +121,27 @@
 
     .max_width_311_lg {
         max-width: 311px;
+    }
+
+    /* .max_width_250 {
+        max-width: 250px;
+
+    } */
+
+    .max_wdth_340 {
+        max-width: 340px;
+    }
+
+    .max_width_1284 {
+        max-width: 1284px;
+    }
+
+    .max_width_700 {
+        max-width: 700px;
+    }
+
+    .max_width_200 {
+        max-width: 200px;
     }
 }
 
@@ -69,4 +165,5 @@
     .nav_left {
         left: 0;
     }
+
 }
