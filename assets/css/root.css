@@ -11,19 +11,14 @@
 
 @font-face {
     font-family: 'SF Pro Display';
-    src: url(../font/SFPRODISPLAYBLACKITALIC.OTF);
     src: url(../font/SFPRODISPLAYBOLD.OTF);
-    src: url(../font/SFPRODISPLAYHEAVYITALIC.OTF);
-    src: url(../font/SFPRODISPLAYLIGHTITALIC.OTF);
     src: url(../font/SFPRODISPLAYMEDIUM.OTF);
     src: url(../font/SFPRODISPLAYREGULAR.OTF);
-    /* src: url(../font/SFPRODISPLAYSEMIBOLDITALIC.OTF);
-    src: url(../font/SFPRODISPLAYTHINITALIC.OTF);
-    src: url(../font/SFPRODISPLAYULTRALIGHTITALIC.OTF); */
 }
 
 .ff_sf_pro {
     font-family: 'SF Pro Display';
+    font-style: normal;
 }
 
 @font-face {
@@ -182,3 +177,99 @@
 .fw_400 {
     font-weight: 400;
 }
+@media (max-width:1400px) {
+    :root {
+        /* font_size */
+        --fs-246: 246px;
+        --fs-200: 200px;
+        --fs-130: 90px;
+        --fs-120: 120px;
+        --fs-110: 90px;
+        --fs-100: 100px;
+        --fs-56: 56px;
+        --fs-35: 35px;
+        --fs-32: 32px;
+        --fs-30: 30px;
+        --fs-24: 24px;
+        --fs-20: 20px;
+        --fs-17: 17px;
+        --fs-15: 15px;
+    }
+}
+@media (max-width:1200px) {
+    :root {
+        /* font_size */
+        --fs-246: 246px;
+        --fs-200: 200px;
+        --fs-130: 90px;
+        --fs-120: 120px;
+        --fs-110: 60px;
+        --fs-100: 100px;
+        --fs-56: 56px;
+        --fs-35: 35px;
+        --fs-32: 32px;
+        --fs-30: 30px;
+        --fs-24: 24px;
+        --fs-20: 20px;
+        --fs-17: 17px;
+        --fs-15: 15px;
+    }
+}
+@media (max-width:992px) {
+    :root {
+        /* font_size */
+        --fs-246: 246px;
+        --fs-200: 200px;
+        --fs-130: 80px;
+        --fs-120: 120px;
+        --fs-110: 110px;
+        --fs-100: 100px;
+        --fs-56: 56px;
+        --fs-35: 35px;
+        --fs-32: 32px;
+        --fs-30: 30px;
+        --fs-24: 24px;
+        --fs-20: 20px;
+        --fs-17: 17px;
+        --fs-15: 15px;
+    }
+}
+@media (max-width:768px) {
+    :root {
+        /* font_size */
+        --fs-246: 246px;
+        --fs-200: 200px;
+        --fs-130: 70px;
+        --fs-120: 120px;
+        --fs-110: 40px;
+        --fs-100: 100px;
+        --fs-56: 56px;
+        --fs-35: 35px;
+        --fs-32: 32px;
+        --fs-30: 30px;
+        --fs-24: 24px;
+        --fs-20: 20px;
+        --fs-17: 17px;
+        --fs-15: 15px;
+    }
+}
+@media (max-width:576px) {
+    :root {
+        /* font_size */
+        --fs-246: 246px;
+        --fs-200: 200px;
+        --fs-130: 80px;
+        --fs-120: 60px;
+        --fs-110: 40px;
+        --fs-100: 100px;
+        --fs-56: 56px;
+        --fs-35: 35px;
+        --fs-32: 32px;
+        --fs-30: 30px;
+        --fs-24: 20px;
+        --fs-20: 15px;
+        --fs-17: 17px;
+        --fs-15: 15px;
+    }
+}
+
