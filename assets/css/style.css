@@ -8,13 +8,13 @@
     box-sizing: border-box;
 }
 
-.overflowhiden{
+.overflowhiden {
     overflow: hidden;
 }
 
 .bg_image {
     background-image: url(/assets/image/svg/Background.png);
-    background-size: 100% 100%;
+    background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
     border-radius: 0px;
@@ -25,7 +25,10 @@
     border-radius: 8px;
     padding: 8px 32px;
 }
-
+body{
+    background: #161616;
+    
+}
 .nav_3_line {
     background-color: chartreuse;
     padding: 3px 18px;
@@ -68,18 +71,17 @@
 }
 
 .play_btn {
-    height: 120px;
-    width: 120px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0.3);
     border-radius: 100px;
-    left: 46%;
-    top: 43%;
 }
 
 .img_green_box {
     top: 10px;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .lines {
@@ -90,16 +92,17 @@
 .blue_star {
     right: -3px;
     bottom: -85px;
-   
+
 }
-.overflow{
+
+.overflow {
     overflow-y: hidden;
 }
 
 .green_star {
     left: 12px;
     top: 80px;
-    
+
 }
 
 .map {
@@ -108,9 +111,17 @@
     border-radius: 0px;
 }
 
-@media (min-width:1400px) {
+.max_width_311_lg {
+    max-width: 311px;
+}
+
+@media (min-width:1720px) {
     .container_xxl {
-        max-width: 1720px;
+        max-width: 1720px !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        margin-left: auto !important;
+        margin-right: auto!important;
     }
 }
 
@@ -119,9 +130,7 @@
         width: 811px;
     }
 
-    .max_width_311_lg {
-        max-width: 311px;
-    }
+
 
     /* .max_width_250 {
         max-width: 250px;
@@ -164,6 +173,17 @@
 
     .nav_left {
         left: 0;
+    }
+
+    .width_80px_lg {
+        width: 80px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .width_50_lg {
+        width: 50px;
     }
 
 }
